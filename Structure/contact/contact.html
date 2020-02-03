@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+</head>
+
+<body>
+    <h1>Create Account</h1>
+
+    <form method="POST">
+        <label for="username">username</label>
+        <input type="text" id="username" name="userName" placeholder="Write your name" />
+        <br>
+        <label for="email">How can i reach you?</label>
+        <input required type="text" id="email" name="email" placeholder="example@gmail.com" />
+        <br>
+        <b>How old are you?</b>
+        <input type="number" name="age" />
+        <br>
+        <b>password</b>
+        <input type="password" name="password" placeholder="********" />
+        <br>
+        <textarea name="comments" cols="10" rows="1">Enter
+            your comments...</textarea>
+        <p>
+            <b>Select Your Sound:</b>
+            <input type="checkbox" name="sound" value="jazz" />
+            Jazz
+            <input type="checkbox" name="sound" value="buzz" />
+            Buzz
+        </p>
+        <!-- <input type="submit" value="Signup"> -->
+        <button>Signup</button>
+    </form>
+
+</body>
+
+</html>
