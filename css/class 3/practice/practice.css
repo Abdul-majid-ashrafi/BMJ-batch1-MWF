@@ -1,0 +1,33 @@
+
+body {
+    /* font-family: fantasy; */
+    /* color: #fff; */
+    /* padding: 10px; */
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+b{
+    font-size: 50%;
+}
+.page {
+    /* font-weight: normal;
+    font-style: oblique;
+    font-size: 75%; */
+    /* border: 1px solid #665544; */
+    /* background-color: rgba(255, 87, 34,0.5); */
+    /* opacity: 0.5; */
+    /* background-color: hsl(360, 96%, 23%); */
+    /* padding: inherit; */
+    background-color: burlywood;
+}
+.header{
+    border-top:2px solid ;
+    background-color: hsl(34, 50%, 60%);
+    padding: 0;
+}
+.details{
+    padding: 10px;
+    
+    /* border:2px solid ; */
+    background-color: burlywood;
+}
