@@ -1,0 +1,28 @@
+/* tr, td {
+    font-family: fantasy;
+} */
+
+/* div {
+    font-size: 75%;
+}
+
+p {
+    font-size: 50%;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: hsl(360,  91%, 39%);
+}
+
+tr:nth-child(even) {
+    background-color: hsl(360, 69%, 34%);
+    /* font-family: fantasy; */
+    /* font-size: 20px; */
+}
+
+tr td {
+    border-bottom: 1px solid;
+}
