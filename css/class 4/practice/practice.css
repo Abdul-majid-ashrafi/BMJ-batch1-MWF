@@ -1,28 +1,83 @@
-/* tr, td {
-    font-family: fantasy;
-} */
-
-/* div {
-    font-size: 75%;
-}
-
-p {
-    font-size: 50%;
-} */
-
-table {
-    width: 100%;
+/* table {
+    color: azure;
+    background-color: hsl(360,  90%, 63%);
     border-collapse: collapse;
-    color: white;
-    background-color: hsl(360,  91%, 39%);
+    width: 100%;
 }
 
-tr:nth-child(even) {
-    background-color: hsl(360, 69%, 34%);
-    /* font-family: fantasy; */
-    /* font-size: 20px; */
+td:nth-child(even){
+        background-color: hsl(350,  90%, 63%);
 }
 
 tr td {
     border-bottom: 1px solid;
+} */
+
+/* ======================================== */
+
+/* @font-face {
+    font-family: 'paragraphFont';
+    src: url('../fonts/demo.otf');}
+
+p{
+    font-family: paragraphFont;
+} */
+
+body {
+    background-color: hsl(360, 90%, 63%);
+    color: white;
+}
+
+a {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+li:hover {
+    border-bottom: 2px double;
+}
+
+ul {
+    text-align: center;
+}
+
+.abc {
+    visibility: visible;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+p {
+    text-transform: capitalize;
+    background-color: hsl(360, 76%, 50%);
+    /* text-decoration: line-through; */
+    line-height: 18px;
+    word-spacing: 3px;
+    text-indent: 10px;
+    text-shadow: 2px 2px 3px cyan;
+    min-width: 50%;
+    /* height: 100px; */
+    /* overflow: scroll; */
+    /* margin: 20px; */
+    padding: 10px;
+    border-top: 5px inset;
+    border-left: 5px inset;
+    box-shadow: 5px 5px 2px cyan;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+/* pseudo-elements */
+
+p::first-letter {
+    color: cyan;
+    font-size: 24px;
+}
+
+p:hover {
+    color: yellowgreen;
 }
