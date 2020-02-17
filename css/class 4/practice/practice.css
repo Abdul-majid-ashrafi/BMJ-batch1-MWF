@@ -4,11 +4,9 @@
     border-collapse: collapse;
     width: 100%;
 }
-
 td:nth-child(even){
         background-color: hsl(350,  90%, 63%);
 }
-
 tr td {
     border-bottom: 1px solid;
 } */
@@ -18,7 +16,6 @@ tr td {
 /* @font-face {
     font-family: 'paragraphFont';
     src: url('../fonts/demo.otf');}
-
 p{
     font-family: paragraphFont;
 } */

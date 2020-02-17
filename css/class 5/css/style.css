@@ -1,0 +1,49 @@
+body {
+    background-color: #232323;
+    color: cyan;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header>img {
+    width: 200px;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+a {
+    color: cyan;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wallImage {
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 1px 2px cyan;
+    border: outset 10px transparent;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+img:hover {
+    box-shadow: 2px 2px 25px 2px white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.lastImg{
+    width: 300px;
+    /* display: none; */
+}
