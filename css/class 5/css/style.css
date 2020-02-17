@@ -41,9 +41,3 @@ img:hover {
 a:hover {
     text-decoration: underline;
 }
-
-
-.lastImg{
-    width: 300px;
-    /* display: none; */
-}
