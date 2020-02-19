@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -28,7 +28,7 @@ a {
 .wallImage {
     width: 300px;
     height: 200px;
-    box-shadow: 1px 1px 1px 2px cyan;
+    box-shadow: 1px 1px 1px 2px;
     border: outset 10px transparent;
     margin: 10px;
     border-radius: 20px;

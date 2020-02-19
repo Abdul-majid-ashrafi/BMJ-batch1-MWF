@@ -1,0 +1,39 @@
+body {
+    /* width: 750px; */
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+h1 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+p {
+    width: 30%;
+    /* position: relative; */
+    /* top: 20px; */
+}
+
+/* .second {
+    position: absolute;
+    background-color: antiquewhite;
+} */
+
+h1 {
+    margin: 0;
+    width: 95%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+p {
+    border: 2px red solid;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+.floatClear {
+    clear: both;
+}
