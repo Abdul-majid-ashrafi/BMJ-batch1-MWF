@@ -1,6 +1,10 @@
 // if statements
+// var ans = prompt("Where was Quaid-e-Azam died?");
+// if (ans === "Karachi") {
+//         alert("yes you'r correct");
+// }
 
-// where did was died Quid-e-Azam
+
 
 
 
