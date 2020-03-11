@@ -1,6 +1,6 @@
 // Let's assign some string values to some variables.
 
-// The variable names are all the same, except they end in different numbers
+// The variable names are all the same except they end in different numbers
 var city0 = "Karachi";
 var city1 = "Lahore";
 var city2 = "Islamabad";
